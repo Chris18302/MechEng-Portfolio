@@ -1,36 +1,201 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Christopher Suarez — Mechanical Engineering Technology portfolio focused on HVAC, building systems, energy, commissioning, controls, and field engineering.">
+  <meta name="theme-color" content="#f3efe6">
   <title>Christopher Suarez | Mechanical Engineering Portfolio</title>
-  <style>
-    :root{--bg:#0d1117;--card:#161b22;--text:#e6edf3;--muted:#8b949e;--line:#30363d;--accent:#58a6ff;--max:1050px}
-    *{box-sizing:border-box} body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
-    main{max-width:var(--max);margin:auto;padding:48px 24px 80px}.hero{padding:48px 0 34px;border-bottom:1px solid var(--line)}
-    h1{font-size:clamp(2.2rem,6vw,4.7rem);line-height:1.05;margin:0 0 18px}.lead{font-size:1.2rem;max-width:820px;color:var(--muted)}
-    .tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}.tag{border:1px solid var(--line);border-radius:99px;padding:5px 11px;color:var(--muted);font-size:.9rem}
-    h2{margin-top:54px;font-size:1.8rem}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}.card h3{margin:0 0 8px}.card p{color:var(--muted)}
-    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}.small{color:var(--muted);font-size:.95rem}.footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted)}
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body><main>
-<section class="hero">
-  <div class="small">MECHANICAL ENGINEERING TECHNOLOGY · NYC</div>
-  <h1>Christopher Suarez</h1>
-  <p class="lead">Mechanical Engineering Technology student building toward HVAC, MEP, commissioning, controls, and energy engineering. Experience spans steam-heating retrofits, MEP drawing review, infrastructure field work, building performance, FEA, MATLAB, and Simulink.</p>
-  <div class="tags"><span class="tag">HVAC / MEP</span><span class="tag">Energy</span><span class="tag">Commissioning</span><span class="tag">Controls</span><span class="tag">AutoCAD</span><span class="tag">SOLIDWORKS</span><span class="tag">MATLAB</span></div>
-</section>
-<h2>Featured Work</h2>
-<div class="grid">
-  <article class="card"><h3>Stress Concentration FEA</h3><p>Compared plate behavior with and without a geometric discontinuity using SOLIDWORKS Simulation.</p><a href="../projects/01-solidworks-stress-concentration/README.md">View project →</a></article>
-  <article class="card"><h3>Radiator Retrofit Field Engineering</h3><p>Sanitized case study covering steam-heating retrofits, field measurement, sensor installation, and coordination.</p><a href="../projects/02-kelvin-radiator-retrofit-case-study/README.md">View case study →</a></article>
-  <article class="card"><h3>MEP & Infrastructure Coordination</h3><p>AutoCAD utility mapping, mechanical drawing review, field verification, and construction documentation.</p><a href="../projects/03-bnydc-mep-infrastructure-case-study/README.md">View case study →</a></article>
-  <article class="card"><h3>Building Performance</h3><p>Weatherization, NYC energy requirements, heat-pump concepts, and building-science training.</p><a href="../projects/04-building-performance-energy-case-study/README.md">View case study →</a></article>
-  <article class="card"><h3>MATLAB Mechanism Analysis</h3><p>Planar mechanism kinematics, torque/power calculations, and numerical engineering analysis.</p><a href="../projects/05-matlab-mechanism-analysis/README.md">View project →</a></article>
-  <article class="card"><h3>Simulink XY Controls</h3><p>Feedback-control tuning and XY tracking performance in MATLAB/Simulink.</p><a href="../projects/06-simulink-controls-project/README.md">View project →</a></article>
-</div>
-<h2>Next Build</h2><p class="lead">Current project roadmap prioritizes a low-cost HVAC commissioning data logger, room-by-room load calculation, and mini duct test rig.</p>
-<p><a href="../recommended-projects/README.md">See project roadmap under $200 →</a></p>
-<div class="footer">Employer work is sanitized to protect confidential information. <a href="mailto:christopher18302@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/christophersuarezortega/">LinkedIn</a></div>
-</main></body></html>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#top">
+        <strong>Christopher Suarez</strong>
+        <span>Mechanical Engineering</span>
+      </a>
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="container" id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div>
+          <p class="eyebrow">Mechanical Engineering Technology · NYC</p>
+          <h1 id="hero-title">Building systems.<br><span class="hero-accent">Measured performance.</span></h1>
+          <p class="hero-copy">I work at the intersection of mechanical systems, field conditions, and building performance. My experience spans steam-heating retrofits, MEP drawing review, infrastructure coordination, energy-efficiency training, FEA, MATLAB, and controls.</p>
+          <div class="action-row">
+            <a class="button primary" href="#work">View engineering work <span aria-hidden="true">↓</span></a>
+            <a class="button" href="https://github.com/Chris18302/MechEng-Portfolio">GitHub <span aria-hidden="true">↗</span></a>
+            <a class="button" href="https://www.linkedin.com/in/christophersuarezortega/">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <aside class="hero-meta" aria-label="Current profile">
+          <div class="meta-item"><span class="meta-label">Degree</span><span class="meta-value">BTech, Mechanical Engineering Technology</span></div>
+          <div class="meta-item"><span class="meta-label">Graduation</span><span class="meta-value">December 2026</span></div>
+          <div class="meta-item"><span class="meta-label">Primary focus</span><span class="meta-value">HVAC · MEP · Energy</span></div>
+          <div class="meta-item"><span class="meta-label">Growing into</span><span class="meta-value">Commissioning · BAS/Controls</span></div>
+        </aside>
+      </section>
+    </div>
+
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-index">02 / WORK</div>
+          <div>
+            <h2 class="section-title">Selected engineering work</h2>
+            <p class="section-intro">Projects are selected for the engineering decisions they show: modeling, field verification, mechanical systems, controls, and performance analysis.</p>
+          </div>
+        </div>
+
+        <div class="project-list">
+          <a class="project" href="https://github.com/Chris18302/MechEng-Portfolio/tree/main/projects/01-solidworks-stress-concentration">
+            <span class="project-no">P-01</span>
+            <span><h3>Stress Concentration Study</h3><p>Compared plate behavior with and without a geometric discontinuity, interpreting von Mises stress, displacement, mesh quality, and the limits of the original comparison.</p></span>
+            <span class="project-tools">SOLIDWORKS Simulation<br>FEA · Meshing<br>Stress / displacement</span>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="project" href="https://github.com/Chris18302/MechEng-Portfolio/tree/main/projects/02-kelvin-radiator-retrofit-case-study">
+            <span class="project-no">P-02</span>
+            <span><h3>Residential Radiator Retrofit</h3><p>Sanitized field-engineering case study covering radiator measurement, smart enclosures, temperature sensors, steam-system exposure, installation QA/QC, and adaptation to existing conditions.</p></span>
+            <span class="project-tools">Steam heating<br>Temperature sensors<br>Field coordination</span>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="project" href="https://github.com/Chris18302/MechEng-Portfolio/tree/main/projects/03-bnydc-mep-infrastructure-case-study">
+            <span class="project-no">P-03</span>
+            <span><h3>MEP & Infrastructure Coordination</h3><p>Sanitized case study covering AutoCAD utility mapping, mechanical drawing review, field observations, as-built comparison, and construction-administration documentation.</p></span>
+            <span class="project-tools">AutoCAD · Bluebeam<br>Steam / water piping<br>Field verification</span>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="project" href="https://github.com/Chris18302/MechEng-Portfolio/tree/main/projects/04-building-performance-energy-case-study">
+            <span class="project-no">P-04</span>
+            <span><h3>Building Performance & Energy</h3><p>Building-science and energy-efficiency work spanning weatherization, heat-pump concepts, NYC energy requirements, technical training, and program data.</p></span>
+            <span class="project-tools">Building science<br>Heat pumps · WAP<br>NYC Local Laws</span>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="project" href="https://github.com/Chris18302/MechEng-Portfolio/tree/main/projects/05-matlab-mechanism-analysis">
+            <span class="project-no">P-05</span>
+            <span><h3>Planar Mechanism Analysis</h3><p>MATLAB-based planar mechanism work covering kinematics, torque and power relationships, numerical solution, and design-variable evaluation.</p></span>
+            <span class="project-tools">MATLAB<br>Kinematics<br>Numerical methods</span>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="project" href="https://github.com/Chris18302/MechEng-Portfolio/tree/main/projects/06-simulink-controls-project">
+            <span class="project-no">P-06</span>
+            <span><h3>XY Motion Control</h3><p>Feedback-control tuning in MATLAB/Simulink, moving from a low-gain setup toward stronger tracking performance and analyzing controller tradeoffs.</p></span>
+            <span class="project-tools">MATLAB / Simulink<br>Feedback control<br>Tracking error</span>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-index">03 / FIELD</div>
+          <div>
+            <h2 class="section-title">Experience in real building systems</h2>
+            <p class="section-intro">The common thread is translating drawings, equipment, and energy concepts into work that has to function in actual buildings.</p>
+          </div>
+        </div>
+
+        <div class="experience-grid">
+          <article class="experience">
+            <div class="experience-tag">Retrofit / HVAC</div>
+            <h3>Kelvin</h3>
+            <div class="experience-role">Operations Intern</div>
+            <p>Reviewed plans, measured radiators, selected and installed smart enclosures, installed temperature sensors, supported steam-heating retrofit work, and coordinated materials and field activity.</p>
+          </article>
+          <article class="experience">
+            <div class="experience-tag">MEP / Infrastructure</div>
+            <h3>Brooklyn Navy Yard</h3>
+            <div class="experience-role">Operations Intern</div>
+            <p>Supported utility and mechanical projects through AutoCAD mapping, MEP drawing review, field observations, as-built comparison, procurement documents, and construction coordination.</p>
+          </article>
+          <article class="experience">
+            <div class="experience-tag">Energy / Building Science</div>
+            <h3>CUNY Building Performance Lab</h3>
+            <div class="experience-role">Learning Support Associate</div>
+            <p>Supported building-performance and workforce training covering weatherization, heat pumps, energy efficiency, and NYC building-energy requirements.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-index">04 / TOOLKIT</div>
+          <div>
+            <h2 class="section-title">Engineering toolkit</h2>
+            <p class="section-intro">Tools are grouped by how I use them rather than presented as a software logo wall.</p>
+          </div>
+        </div>
+
+        <div class="skill-matrix">
+          <div class="skill-row"><h3>Mechanical & building systems</h3><p>HVAC fundamentals · one-pipe and two-pipe steam heating · heat-pump concepts · building science · temperature sensors · piping / PRV / backflow exposure</p></div>
+          <div class="skill-row"><h3>CAD & documentation</h3><p>AutoCAD · SOLIDWORKS · Autodesk Inventor · Bluebeam Revu · drawing review · utility mapping · construction documentation</p></div>
+          <div class="skill-row"><h3>Analysis & simulation</h3><p>MATLAB · Simulink · SOLIDWORKS Simulation · Excel · FEA fundamentals · engineering computation · data analysis</p></div>
+          <div class="skill-row"><h3>Field & project delivery</h3><p>Field verification · measurement · mechanical assembly · installation QA/QC · RFIs / RFPs / IFBs / submittal exposure · contractor and stakeholder coordination</p></div>
+          <div class="skill-row"><h3>Credentials</h3><p>OSHA 30-Hour · SST 10 · 40-Hour HAZWOPER · Building Science Principles (BPI)</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="building-next">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-index">05 / NEXT</div>
+          <div>
+            <h2 class="section-title">What I’m building next</h2>
+            <p class="section-intro">The next portfolio projects are chosen to fill specific gaps for HVAC design, commissioning, controls, and energy-engineering roles.</p>
+          </div>
+        </div>
+
+        <div class="next-build">
+          <article class="build-item"><div class="cost">Target budget · $55–$120</div><h3>HVAC commissioning data logger</h3><p>Multi-point temperature / RH sensing, trend logging, cycle analysis, and a short commissioning-style test report.</p></article>
+          <article class="build-item"><div class="cost">Target budget · $0–$40</div><h3>HVAC load calculation + heat-pump selection</h3><p>Room-by-room heating and cooling loads followed by equipment selection using manufacturer performance data.</p></article>
+          <article class="build-item"><div class="cost">Target budget · $90–$180</div><h3>Mini duct + fan test rig</h3><p>Airflow and static-pressure testing across dampers and restrictions, with a measured system curve and test procedure.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-band" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">06 / CONTACT</p>
+          <h2>Interested in building systems, energy, or field engineering?</h2>
+          <p>I’m building toward entry-level mechanical, HVAC/MEP, energy, commissioning, and controls roles. Employer case studies in this portfolio are sanitized to protect confidential information.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:christopher18302@gmail.com">Email me</a>
+          <a class="button" href="https://www.linkedin.com/in/christophersuarezortega/">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>Christopher Suarez · Mechanical Engineering Technology</span>
+      <span>Built for GitHub Pages · 2026</span>
+    </div>
+  </footer>
+</body>
+</html>
