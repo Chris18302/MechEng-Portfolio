@@ -26,6 +26,7 @@ I combine hands-on field experience with engineering documentation, energy/build
 | [Building Performance & NYC Energy Policy Case Study](projects/04-building-performance-energy-case-study/README.md) | Building science, WAP, benchmarking / LL awareness | BPI concepts, WAP, LL33/84/87/88/97 |
 | [Planar Mechanism Analysis](projects/05-matlab-mechanism-analysis/README.md) | Kinematics, torque/power analysis, optimization | MATLAB, mechanisms, numerical analysis |
 | [XY Motion Control in Simulink](projects/06-simulink-controls-project/README.md) | Feedback-control tuning and tracking | MATLAB/Simulink, P/PD control |
+| [Tensile Testing & Material Properties](projects/07-tensile-testing-material-properties/README.md) | Experimental stress-strain analysis, material strength, stiffness, ductility, and fracture behavior | Tensile testing, materials, stress-strain analysis |
 
 ## Experience Snapshot
 
