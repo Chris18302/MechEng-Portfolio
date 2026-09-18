@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Stress Concentration Study — Christopher Suarez mechanical engineering portfolio project.">
+  <meta name="theme-color" content="#f3efe6">
+  <title>Stress Concentration Study | Christopher Suarez</title>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="../../">
+        <strong>Christopher Suarez</strong>
+        <span>Mechanical Engineering</span>
+      </a>
+      <div class="nav-links">
+        <a href="../../#work">Work</a>
+        <a href="../../#experience">Experience</a>
+        <a href="../../#skills">Skills</a>
+        <a href="../../#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="project-page">
+    <section class="project-detail-hero">
+      <div class="container">
+        <p class="eyebrow">P-01 · Simulation / FEA</p>
+        <h1>Stress Concentration Study</h1>
+        <p class="project-lede">A SOLIDWORKS Simulation study examining how a geometric discontinuity changes the local stress field and displacement response of a loaded plate.</p>
+        <div class="project-meta-grid">
+          <div class="project-meta-item"><span>Tools</span><strong>SOLIDWORKS Simulation</strong></div>
+          <div class="project-meta-item"><span>Focus</span><strong>FEA · Meshing · Stress</strong></div>
+          <div class="project-meta-item"><span>Project type</span><strong>Academic analysis</strong></div>
+        </div>
+        <div class="action-row">
+          <a class="button primary" href="../../#work">← Back to portfolio</a>
+          <a class="button" href="https://github.com/Chris18302/MechEng-Portfolio/tree/main/projects/01-solidworks-stress-concentration">View source on GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-detail-body">
+      <div class="container project-detail-grid">
+        <aside class="project-rail">
+          <span class="project-rail-number">P-01</span>
+          <span>Simulation / FEA</span>
+        </aside>
+        <article class="project-article">
+          
+<section class="project-section">
+  <h2>Engineering question</h2>
+  <p>How does adding a central hole to a loaded plate affect stress concentration and displacement compared with a similar plate without the hole?</p>
+</section>
+<section class="project-section">
+  <h2>Method</h2>
+  <ol>
+    <li>Created two plate geometries in SOLIDWORKS.</li>
+    <li>Assigned linear elastic material properties.</li>
+    <li>Applied fixed boundary conditions and static face loads.</li>
+    <li>Generated high-quality solid meshes.</li>
+    <li>Reviewed von Mises stress, resultant displacement, and deformed shape.</li>
+    <li>Compared the configurations and documented the effect of the hole.</li>
+  </ol>
+</section>
+<section class="project-section">
+  <h2>Available results</h2>
+  <div class="result-grid">
+    <div><span>Mesh nodes</span><strong>15,076</strong></div>
+    <div><span>Elements</span><strong>7,369</strong></div>
+    <div><span>Max. von Mises stress</span><strong>≈ 6.02 × 10⁴ N/m²</strong></div>
+    <div><span>Max. resultant displacement</span><strong>≈ 2.665 × 10⁻⁵ mm</strong></div>
+  </div>
+  <p class="project-note">The completed no-hole study used Alumina and a 10 N load. The second study used alloy steel, so the strongest conclusion is qualitative stress-concentration behavior rather than a direct material-to-material numerical comparison.</p>
+</section>
+<section class="project-section">
+  <h2>What I learned</h2>
+  <ul>
+    <li>Boundary conditions and material selection strongly affect absolute FEA results.</li>
+    <li>Mesh quality matters most around holes, fillets, notches, and other geometry changes.</li>
+    <li>A valid comparison should keep material, load, constraints, thickness, and geometry scale consistent.</li>
+    <li>Localized stress peaks should be interpreted with mesh convergence in mind.</li>
+  </ul>
+</section>
+<section class="project-section">
+  <h2>Next improvement</h2>
+  <p>Re-run both models under identical assumptions, locally refine the mesh around the hole, calculate a numerical stress-concentration factor, and compare it with a theoretical or handbook value.</p>
+</section>
+        </article>
+      </div>
+    </section>
+
+    <section class="project-next">
+      <div class="container project-next-inner">
+        <span class="eyebrow">Next project</span>
+        <a href="../02-kelvin-radiator-retrofit-case-study/">Residential Radiator Retrofit <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>Christopher Suarez · Mechanical Engineering Technology</span>
+      <span>Portfolio project · P-01</span>
+    </div>
+  </footer>
+</body>
+</html>
