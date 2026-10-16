@@ -163,7 +163,7 @@ h1 {
 .skill-row p { margin: 0; color: var(--muted); }
 
 .next-build {
-  display: grid; grid-template-columns: repeat(3, 1fr);
+  display: grid; grid-template-columns: repeat(2, 1fr);
   gap: 0; border: 1px solid var(--ink); background: var(--paper-raised);
 }
 .build-item { padding: 30px; min-height: 220px; }
@@ -396,4 +396,10 @@ footer { background: var(--ink); color: #9da6a4; padding: 22px 0 34px; font: 400
   .result-grid,
   .equation-grid { grid-template-columns: 1fr; }
   .project-next-inner { flex-direction: column; align-items: flex-start; }
+}
+
+.next-build .build-item:nth-child(odd) { border-left: 0; }
+.next-build .build-item:nth-child(n+3) { border-top: 1px solid var(--rule); }
+@media (max-width: 900px) {
+  .next-build .build-item:nth-child(n+3) { border-top: 1px solid var(--rule); }
 }
