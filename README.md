@@ -1,65 +1,76 @@
 # Christopher Suarez | Mechanical Engineering Portfolio
 
-Mechanical Engineering Technology student focused on **HVAC, building systems, energy engineering, commissioning, controls, and field engineering**.
+Mechanical Engineering Technology student focused on **HVAC/MEP, building performance, energy engineering, commissioning, BAS/BMS controls, and field engineering**.
 
-I combine hands-on field experience with engineering documentation, energy/building-science knowledge, CAD, simulation, and project coordination. My experience includes residential heating retrofits, steam heating systems, MEP drawing review, infrastructure projects, building-energy training, and mechanical analysis.
+My strongest work combines field conditions, mechanical systems, building-energy concepts, engineering documentation, controls, and technical analysis.
 
-> **Portfolio note:** Employer projects are presented as sanitized case studies. Proprietary drawings, tenant information, internal documents, and confidential project data are intentionally excluded.
+> **Portfolio strategy:** Only projects that strongly support my target building-systems roles are featured. General academic projects are retained in a supplemental archive rather than presented as core portfolio work.
+
+## Core Portfolio Case Studies
+
+| Project | Why it is relevant | Skills demonstrated |
+|---|---|---|
+| [Residential Radiator Retrofit — Field Engineering Case Study](projects/02-kelvin-radiator-retrofit-case-study/README.md) | Direct HVAC retrofit, steam-heating, sensor, installation, and field-coordination experience | Steam systems, field measurement, sensors, constructability, QA/QC |
+| [MEP & Infrastructure Coordination — BNYDC Case Study](projects/03-bnydc-mep-infrastructure-case-study/README.md) | Direct MEP drawing review, utility mapping, field verification, construction administration, and infrastructure coordination | AutoCAD, Bluebeam, MEP, RFIs/submittals, as-builts, field verification |
+| [Building Performance & Energy Efficiency Case Study](projects/04-building-performance-energy-case-study/README.md) | Direct alignment with building science, heat pumps, weatherization, energy policy, and building-performance work | Building science, WAP, heat pumps, NYC Local Laws, Excel |
+
+## Projects in Development
+
+These are the highest-priority additions because they close the largest gaps for my target roles:
+
+1. **Complete Small Commercial HVAC Design** — room-by-room loads, ventilation, airflow, duct sizing, equipment selection, controls intent, and Revit/AutoCAD documentation.
+2. **Energy Audit + ECM Analysis** — utility/EUI analysis, envelope/HVAC assessment, ECM savings, payback, and carbon reduction.
+3. **BAS Controls Project** — sensors, setpoints, deadbands, alarms, trends, sequences of operation, and HVAC control logic.
+4. **HVAC Commissioning Project** — pre-functional checks, functional performance testing, trend analysis, deficiencies, and closeout-style documentation.
+
+## Supplemental Academic Archive
+
+These projects demonstrate general mechanical or controls fundamentals, but they are **not featured** because they are less directly aligned with the majority of my target HVAC/MEP, energy, commissioning, and BAS/BMS roles.
+
+| Project | Portfolio role |
+|---|---|
+| [Stress Concentration: Plate With vs. Without Hole](projects/01-solidworks-stress-concentration/README.md) | Supplemental FEA / mechanical-analysis evidence |
+| [Planar Mechanism Analysis](projects/05-matlab-mechanism-analysis/README.md) | Supplemental MATLAB / kinematics evidence |
+| [XY Motion Control in Simulink](projects/06-simulink-controls-project/README.md) | Supplemental controls fundamentals; to be replaced by HVAC/BAS controls work |
+| [Tensile Testing & Material Properties](projects/07-tensile-testing-material-properties/README.md) | Supplemental materials-testing evidence |
 
 ## Technical Focus
 
-- HVAC and building systems
+- HVAC and MEP systems
 - Energy efficiency and building performance
 - Commissioning / retro-commissioning
-- BAS/BMS and controls fundamentals
-- Mechanical design and FEA
+- BAS/BMS and controls
 - Field verification and construction coordination
-- Engineering data analysis
-
-## Featured Projects
-
-| Project | What it demonstrates | Tools / topics |
-|---|---|---|
-| [Stress Concentration: Plate With vs. Without Hole](projects/01-solidworks-stress-concentration/README.md) | FEA workflow, stress/displacement interpretation, mesh awareness | SOLIDWORKS Simulation, FEA, von Mises stress |
-| [Residential Radiator Retrofit — Field Engineering Case Study](projects/02-kelvin-radiator-retrofit-case-study/README.md) | Field measurement, sensors, steam systems, retrofit installation | Steam heating, sensors, mechanical assembly, field coordination |
-| [MEP & Infrastructure Coordination — BNYDC Case Study](projects/03-bnydc-mep-infrastructure-case-study/README.md) | Drawing review, AutoCAD utility mapping, construction documentation | AutoCAD, Bluebeam, MEP, RFIs, submittals, field verification |
-| [Building Performance & NYC Energy Policy Case Study](projects/04-building-performance-energy-case-study/README.md) | Building science, WAP, benchmarking / LL awareness | BPI concepts, WAP, LL33/84/87/88/97 |
-| [Planar Mechanism Analysis](projects/05-matlab-mechanism-analysis/README.md) | Kinematics, torque/power analysis, optimization | MATLAB, mechanisms, numerical analysis |
-| [XY Motion Control in Simulink](projects/06-simulink-controls-project/README.md) | Feedback-control tuning and tracking | MATLAB/Simulink, P/PD control |
-| [Tensile Testing & Material Properties](projects/07-tensile-testing-material-properties/README.md) | Experimental stress-strain analysis, material strength, stiffness, ductility, and fracture behavior | Tensile testing, materials, stress-strain analysis |
+- Engineering data analysis and technical documentation
 
 ## Experience Snapshot
 
 ### Kelvin — Operations Intern
-- Installed custom smart radiator enclosures in occupied residential buildings.
-- Measured existing radiators, selected enclosure sizes, and completed field installations.
+- Measured existing radiators, selected enclosure configurations, and completed smart radiator retrofit installations in occupied residential buildings.
 - Installed temperature sensors monitoring radiator inlet, outlet, and ambient conditions.
-- Supported one-pipe/two-pipe steam retrofit work, mechanical assembly, inventory, and field coordination.
+- Worked around one-pipe and two-pipe steam systems and adapted installations to actual field conditions.
+- Coordinated with tenants, building staff, and crews to keep installations moving safely and efficiently.
 
 ### Brooklyn Navy Yard Development Corporation — Operations Intern
-- Drafted underground utility layouts in AutoCAD across a large industrial campus.
-- Reviewed mechanical/HVAC drawings for steam, water-piping, PRV/backflow, and restoration projects.
-- Supported RFIs, RFPs, IFBs, submittals, change orders, and field verification.
+- Drafted underground utility layouts in AutoCAD and reviewed mechanical/HVAC drawings for steam, water, PRV/backflow, and restoration work.
+- Compared field conditions, Resident Engineer information, and as-built documentation to identify coordination needs.
+- Supported RFIs, RFPs, IFBs, submittals, change orders, and project documentation.
 - Developed a self-initiated NYCECC / Special Inspections presentation for project teams.
 
 ### CUNY Building Performance Lab — Learning Support Associate Intern
-- Supported technical training focused on building systems, energy efficiency, and sustainable technologies.
-- Worked with WAP and NYC Local Law training content including LL33, 84, 87, 88, and 97.
-- Maintained technical/program tracking data in Excel.
+- Supported technical training focused on weatherization, heat pumps, building systems, and energy efficiency.
+- Worked with content covering NYC Local Laws 33, 84, 87, 88, and 97.
+- Maintained technical/program tracking data in Excel and supported training delivery.
 
 ## Skills
 
-**Engineering / Building Systems:** HVAC fundamentals, one-pipe and two-pipe steam heating, building science, sensor installation, mechanical assembly, construction documentation, MEP drawing review, field verification
+**Engineering / Building Systems:** HVAC fundamentals, one-pipe and two-pipe steam heating, building science, heat-pump concepts, temperature sensors, construction documentation, MEP drawing review, field verification
 
 **Software:** AutoCAD, Bluebeam Revu, Autodesk Inventor, SOLIDWORKS / Simulation, MATLAB, Simulink, ArcGIS, Excel, Microsoft Office, Monday.com, Device Magic
 
 **Certifications:** OSHA 30-Hour, SST 10, 40-Hour HAZWOPER, Building Science Principles (BPI)
 
 **Languages:** English and Spanish
-
-## What I Am Building Next
-
-The strongest additions to this portfolio are projects that show **load calculations, HVAC design, controls, instrumentation, commissioning, and measured performance**. See [Recommended Projects Under $200](recommended-projects/README.md).
 
 ## Contact
 
@@ -68,4 +79,4 @@ The strongest additions to this portfolio are projects that show **load calculat
 
 ---
 
-*BTech Mechanical Engineering Technology — New York City College of Technology, CUNY*
+*BTech Mechanical Engineering Technology — New York City College of Technology, CUNY · Expected May 2027*
