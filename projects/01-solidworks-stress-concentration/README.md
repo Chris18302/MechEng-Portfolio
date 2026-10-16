@@ -1,32 +1,55 @@
 # Stress Concentration Study: Plate With vs. Without a Hole
 
-## Objective
-Compare the stress and displacement response of a solid plate with a plate containing a central hole under static loading. The project demonstrates how a geometric discontinuity changes the local stress field.
+**Portfolio status:** Supplemental academic archive — useful mechanical-analysis evidence, but not featured because it is less directly aligned with my primary HVAC/MEP, energy, commissioning, BAS/BMS, and building-performance targets.
+
+## Executive Summary
+
+Modeled loaded plates in SOLIDWORKS Simulation to examine how a geometric discontinuity changes the local stress field. The exercise demonstrated FEA setup, meshing, boundary conditions, stress/displacement interpretation, and—most importantly—the limitations of comparing simulations when material and setup conditions are not held constant.
 
 ## Engineering Question
-How does adding a hole to a loaded plate affect stress concentration and displacement compared with a geometrically similar plate without the hole?
 
-## Method
-1. Created two plate geometries in SOLIDWORKS.
-2. Assigned linear elastic material properties.
-3. Applied fixed boundary conditions and static face loads.
-4. Generated high-quality solid meshes.
-5. Reviewed von Mises stress, resultant displacement, and deformed shape.
-6. Compared the two configurations and documented the effect of the hole.
+How does a central hole affect stress concentration and displacement in a loaded plate?
+
+## Actions
+
+- Created plate geometries in SOLIDWORKS.
+- Assigned linear elastic material properties.
+- Applied fixed constraints and static face loading.
+- Generated solid meshes and reviewed mesh quality.
+- Compared von Mises stress, displacement, and deformed shape.
+- Identified why the original two-model comparison was not a controlled quantitative comparison.
 
 ## Available Results
-One completed SOLIDWORKS Simulation study for the no-hole plate used Alumina, a 10 N load, and a high-quality mesh with 15,076 nodes / 7,369 elements. The reported maximum von Mises stress was approximately **6.02e4 N/m²** and the maximum resultant displacement was approximately **2.665e-5 mm**.
 
-A second study modeled the plate with a central hole using alloy steel and a static load. The key portfolio takeaway is the **stress-concentration behavior around the geometric discontinuity**, not a direct material-to-material comparison.
+For one completed no-hole study:
 
-## What I Learned
-- Boundary conditions and material selection strongly affect absolute FEA results.
-- Mesh quality matters most around geometry changes such as holes, fillets, and notches.
-- A valid comparison should keep geometry scale, material, loading, and constraints consistent.
-- Stress concentration is a localized effect and should be interpreted with mesh convergence in mind.
+| Item | Result |
+|---|---:|
+| Material | Alumina |
+| Load | 10 N |
+| Nodes | 15,076 |
+| Elements | 7,369 |
+| Maximum von Mises stress | ≈ 6.02 × 10⁴ N/m² |
+| Maximum resultant displacement | ≈ 2.665 × 10⁻⁵ mm |
 
-## Next Improvement
-Re-run both models with identical material, load, constraints, thickness, and a local mesh refinement around the hole. Then calculate a numerical stress-concentration factor and compare it with a handbook/theoretical value.
+The hole model used a different material, so the project supports a **qualitative stress-concentration conclusion**, not a defensible direct numerical comparison.
+
+## Critical Trade-Off / Limitation
+
+The most important lesson is experimental control: material, load, geometry scale, thickness, constraints, and mesh strategy must be consistent before attributing numerical differences to the hole itself.
+
+## What I Would Do Differently
+
+Re-run both models with identical inputs, perform local mesh refinement around the hole, check convergence, calculate a stress-concentration factor, and compare it with a theoretical or handbook value.
 
 ## Skills Demonstrated
-SOLIDWORKS Simulation · FEA · von Mises stress · displacement · meshing · boundary conditions · engineering interpretation
+
+SOLIDWORKS Simulation · FEA · Meshing · Boundary conditions · von Mises stress · Displacement · Engineering interpretation
+
+## Hiring-Manager Test Questions
+
+1. Why is the current two-model numerical comparison not controlled?
+2. Where would you refine the mesh and why?
+3. How would you test mesh convergence?
+4. What is a stress-concentration factor?
+5. What boundary-condition mistakes could artificially increase stress?
