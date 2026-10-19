@@ -1,7 +1,5 @@
 # Residential Radiator Retrofit — Field Engineering Case Study
 
-**Portfolio status:** Core project — strong fit for HVAC/MEP, commissioning, field engineering, building-performance, and controls-oriented roles.
-
 ## Executive Summary
 
 Performed field verification and installation work for residential steam-heating retrofits in occupied NYC buildings. Measured existing radiators, selected smart enclosure configurations, installed temperature sensors, adapted hardware to non-standard field conditions, and coordinated with occupants and building staff to complete installations safely and correctly. In one non-standard condition, I modified available mounting hardware to achieve a secure same-visit installation instead of deferring the work for replacement parts.
@@ -45,23 +43,6 @@ Technical installation decisions also had to account for tenant communication, s
 ## Skills Demonstrated
 
 Steam heating · HVAC retrofit · Field measurement · Temperature sensing · Constructability · Mechanical assembly · Installation QA/QC · Troubleshooting · Field coordination · Bilingual tenant communication
-
-## Hiring-Manager Test Questions
-
-1. How did you decide whether an enclosure would fit before installation?
-2. What field conditions would make a radiator enclosure unsafe or impractical to install?
-3. What is the difference between one-pipe and two-pipe steam systems?
-4. Why would inlet, outlet, and ambient temperature measurements be useful?
-5. What did you check after modifying the mounting arrangement to confirm the installation was acceptable?
-
-## Evidence That Would Strengthen This Case Study Further
-
-- Number of radiators surveyed and installed
-- First-pass installation / revisit rate
-- Example sanitized measurement sheet
-- Sensor trend data
-- Before/after installation photographs that contain no tenant or proprietary information
-- Estimated installation time saved from resolving non-standard conditions on site
 
 ## Confidentiality
 
