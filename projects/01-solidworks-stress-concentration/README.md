@@ -1,7 +1,5 @@
 # Stress Concentration Study: Plate With vs. Without a Hole
 
-**Portfolio status:** Supplemental academic archive — useful mechanical-analysis evidence, but not featured because it is less directly aligned with my primary HVAC/MEP, energy, commissioning, BAS/BMS, and building-performance targets.
-
 ## Executive Summary
 
 Modeled loaded plates in SOLIDWORKS Simulation to examine how a geometric discontinuity changes the local stress field. The exercise demonstrated FEA setup, meshing, boundary conditions, stress/displacement interpretation, and—most importantly—the limitations of comparing simulations when material and setup conditions are not held constant.
@@ -45,11 +43,3 @@ Re-run both models with identical inputs, perform local mesh refinement around t
 ## Skills Demonstrated
 
 SOLIDWORKS Simulation · FEA · Meshing · Boundary conditions · von Mises stress · Displacement · Engineering interpretation
-
-## Hiring-Manager Test Questions
-
-1. Why is the current two-model numerical comparison not controlled?
-2. Where would you refine the mesh and why?
-3. How would you test mesh convergence?
-4. What is a stress-concentration factor?
-5. What boundary-condition mistakes could artificially increase stress?
