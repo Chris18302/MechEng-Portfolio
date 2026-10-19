@@ -1,7 +1,5 @@
 # Building Performance & Energy Efficiency Case Study
 
-**Portfolio status:** Core project — strong fit for energy engineering, building performance, decarbonization, HVAC, commissioning, and sustainability roles.
-
 ## Executive Summary
 
 Supported building-performance and workforce-development programs focused on weatherization, heat pumps, building science, and NYC energy requirements. I reviewed technical content, helped organize and deliver training, maintained program data in Excel, and connected equipment-level concepts such as heat pumps and envelope performance to broader energy-efficiency and decarbonization requirements.
@@ -42,24 +40,3 @@ NYC energy requirements influence what owners measure, audit, upgrade, and repor
 ## Skills Demonstrated
 
 Building science · Weatherization · Heat pumps · Energy efficiency · NYC Local Laws · Excel · Technical communication · Program data · Decarbonization concepts
-
-## Hiring-Manager Test Questions
-
-1. How can envelope improvements affect HVAC sizing?
-2. What is EUI, and why is it useful?
-3. What is the difference between benchmarking, an energy audit, and retro-commissioning?
-4. What factors would you consider when evaluating a heat-pump retrofit?
-5. How do NYC energy laws influence engineering work in existing buildings?
-
-## Gap I Still Need to Close
-
-This experience is relevant, but it is not yet a complete energy-engineering analysis project. The next step is to add a public case study with actual utility data, calculated EUI, weather normalization or baseline logic, ECM savings, simple payback, carbon impacts, and a recommendation.
-
-## Evidence That Would Strengthen This Case Study Further
-
-- Sample EUI calculation
-- Utility-analysis workbook
-- ECM comparison table
-- Heat-pump selection example
-- Simple payback and carbon-reduction calculations
-- A short energy-audit style report
