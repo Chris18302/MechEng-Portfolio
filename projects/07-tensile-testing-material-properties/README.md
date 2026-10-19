@@ -1,7 +1,5 @@
 # Tensile Testing & Material Properties
 
-**Portfolio status:** Supplemental academic archive — demonstrates experimental mechanical analysis, but is not featured because it has limited direct overlap with my primary HVAC/MEP, energy, commissioning, and BAS/BMS targets.
-
 ## Executive Summary
 
 Analyzed tensile-test data to quantify stiffness, yielding, ultimate strength, ductility, and fracture behavior. The analysis produced an estimated **Young's modulus of 3.94 × 10⁷ psi**, **0.2% offset yield strength of 68 ksi**, **ultimate tensile strength of 82.6 ksi**, **54.9% reduction of area**, and **true fracture stress of 183 ksi**.
@@ -56,21 +54,3 @@ The specimen progressed through elastic deformation, yielding, plastic deformati
 ## Skills Demonstrated
 
 Materials testing · Stress-strain analysis · Young's modulus · 0.2% offset yield · UTS · Ductility · Engineering vs. true stress · Experimental data interpretation
-
-## Hiring-Manager Test Questions
-
-1. Why is the 0.2% offset method used?
-2. Why can true fracture stress exceed engineering fracture stress?
-3. How did you select the elastic region for modulus?
-4. What measurement errors most affect percent elongation and reduction of area?
-5. How would you compare the measured values with published material properties?
-
-## Evidence Needed Before Re-Featuring
-
-- Raw tensile-test CSV
-- Engineering stress-strain plot
-- 0.2% offset-yield plot
-- Specimen dimensions before/after testing
-- Fracture photographs
-- Published-material comparison
-- Uncertainty/error discussion
