@@ -1,7 +1,5 @@
 # MEP & Infrastructure Coordination — Brooklyn Navy Yard Case Study
 
-**Portfolio status:** Core project — strong fit for HVAC/MEP, commissioning, field engineering, project engineering, infrastructure, and construction-coordination roles.
-
 ## Executive Summary
 
 Supported active mechanical and infrastructure projects across the Brooklyn Navy Yard by drafting underground utility layouts in AutoCAD, reviewing mechanical/HVAC drawings, comparing field conditions and Resident Engineer information against drawings/as-builts, and supporting construction-administration documents. The work required translating between design intent, existing conditions, and project documentation rather than treating drawings as automatically correct.
@@ -43,22 +41,6 @@ My NYCECC and Special Inspections work reinforced that engineering documents als
 ## Skills Demonstrated
 
 AutoCAD · Bluebeam Revu · MEP drawing review · Utility mapping · Steam systems · Water piping · PRV/backflow systems · As-builts · RFIs · Submittals · Change orders · Field verification · Construction coordination · Code awareness
-
-## Hiring-Manager Test Questions
-
-1. What information would you verify before updating an underground utility drawing?
-2. How would you handle a conflict between an as-built drawing and observed field conditions?
-3. What is the purpose of a PRV and where would you expect one in a building system?
-4. What is the difference between an RFI, submittal, and change order?
-5. What would you look for when reviewing a mechanical drawing before a site visit?
-
-## Evidence That Would Strengthen This Case Study Further
-
-- Sanitized sample utility-map excerpt
-- Number/types of drawings reviewed
-- Example discrepancy log or field-verification checklist
-- Example sanitized RFI/submittal review workflow
-- A public reconstruction of one coordination problem using fictional geometry/data
 
 ## Confidentiality
 
